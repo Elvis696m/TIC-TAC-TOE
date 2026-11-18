@@ -1,0 +1,25 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    font-size: 40px;
+}
+#gameContainer{
+    font-family: 'permanent Marker', cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+#restartBtn{
+    width: 75px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+#restartBtn:hover{
+    background-color: lightgreen;
+}
