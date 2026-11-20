@@ -64,3 +64,10 @@ body {
 #restartBtn:hover{
     background-color: lightgreen;
 }
+#gameContainer {
+    display: none;
+}
+
+#loginContainer {
+    display: block;
+}
